@@ -9,9 +9,11 @@
     <packaging>pom</packaging>
 
     <properties>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <maven.compiler.source>25</maven.compiler.source>
         <maven.compiler.target>25</maven.compiler.target>
-        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <grpc.version>1.78.0</grpc.version>
+        <protobuf.version>4.33.3</protobuf.version>
     </properties>
 
 </project>
